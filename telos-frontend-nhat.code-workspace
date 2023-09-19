@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../telos-frontend-15"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "telos-frontend-nhat"
+	}
+}

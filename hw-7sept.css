@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.clearfix {
+    clear: both;
+}
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;    
+    text-align: center;
+}
+.topnav img {
+    margin-right: 32px;
+}
+.topnav a {
+    color: #7a48b8;
+    text-decoration: none;
+    margin-right: 24px;
+    font-size: 14px;
+}
+.topnav a:hover, .dropbtn:hover {
+    color: rgb(245, 159, 47);
+}
+.topnav a.active, .dropbtn:active {
+    color: #e50ea8;
+}
+.dropbtn {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: #7a48b8;
+    background-color: inherit;
+    font-family: inherit;
+}
+.topnav-left {
+    float: left;
+    margin-right: 60px;
+}
+.topnav-right {
+    float: right;
+}
+.topnav-right img {
+    margin-right: 8px;
+    width: 40%;
+}
+.content h1 {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    color:rgb(19, 12, 60);
+    line-height: 1.5;
+}
+.center-button, .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    background-color: #7a48b8;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+.iphonex {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
+}
+.circle {
+    width: 70rem;
+    height: 40rem;
+    border-radius: 40rem 40rem 0 0;
+    background: #ccb2ee;
+    z-index: -1;
+    bottom: 0;
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, 50%);
+}
